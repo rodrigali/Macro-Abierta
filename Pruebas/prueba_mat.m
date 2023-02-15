@@ -30,4 +30,4 @@ dy= x(1)
 dr= x(2)
 
 %%Algoritmo de decision 
-sdsd
+c

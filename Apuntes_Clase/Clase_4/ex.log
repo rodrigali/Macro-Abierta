@@ -1,0 +1,77 @@
+Starting Dynare (version 5.4).
+Calling Dynare with arguments: none
+Starting preprocessing of the model file ...
+Substitution of exo leads: added 1 auxiliary variables and equations.
+Found 9 equation(s).
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 2).
+Processing outputs ...
+done
+Preprocessing completed.
+
+
+STEADY-STATE RESULTS:
+
+y               		 1.32425
+c               		 1.11867
+i               		 0.205585
+k               		 3.42642
+n               		 0.793699
+w               		 1.0845
+r               		 0.135269
+a               		 1
+
+EIGENVALUES:
+         Modulus             Real        Imaginary
+
+           0.871            0.871                0
+            0.95             0.95                0
+           1.234            1.234                0
+       3.117e+17        3.117e+17                0
+             Inf             -Inf                0
+
+
+There are 3 eigenvalue(s) larger than 1 in modulus 
+for 3 forward-looking variable(s)
+
+The rank condition is verified.
+
+
+MODEL SUMMARY
+
+  Number of variables:         9
+  Number of stochastic shocks: 1
+  Number of state variables:   2
+  Number of jumpers:           3
+  Number of static variables:  4
+
+
+MATRIX OF COVARIANCE OF EXOGENOUS SHOCKS
+Variables         eps
+eps          0.000100
+
+POLICY AND TRANSITION FUNCTIONS
+                                   y               c               i               k               n               w               r               a
+Constant                    1.324251        1.118666        0.205585        3.426421        0.793699        1.084497        0.135269        1.000000
+k(-1)                       0.121330        0.190302       -0.068972        0.871028       -0.012853        0.116925       -0.027085               0
+a(-1)                       1.344935        0.588726        0.756208        0.756208        0.080126        0.991953        0.137382        0.950000
+k(-1),k(-1)                -0.013222       -0.008453       -0.004769       -0.004769        0.000988       -0.010285        0.006554               0
+a(-1),k(-1)                 0.135846        0.065410        0.070437        0.070437        0.010340        0.101382       -0.026218               0
+a(-1),a(-1)                -0.025225       -0.050860        0.025635        0.025635       -0.068963       -0.026568       -0.002577       -0.023750
+
+
+APPROXIMATED THEORETICAL MOMENTS
+VARIABLE         MEAN  STD. DEV.   VARIANCE
+y              1.3243     0.0000     0.0000
+c              1.1187     0.0000     0.0000
+i              0.2056     0.0000     0.0000
+k              3.4264     0.0000     0.0000
+n              0.7937     0.0000     0.0000
+w              1.0845     0.0000     0.0000
+r              0.1353     0.0000     0.0000
+a              1.0000     0.0000     0.0000
+
+All endogenous are constant or non stationary, not displaying correlations and auto-correlations
+
+Total computing time : 0h00m03s
